@@ -1,0 +1,143 @@
+@keyframes changeColor{
+    0% {background-color: red;}
+    50% {background-color: yellow;}
+    100% {background-color: blue;}
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    animation-name: changeColor;
+    animation-duration: 6s;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*GRID-TEMPLATE
+
+.container{                             
+    color: white;
+    display: grid;
+    padding: 10px;
+    background-color: #ccc; 
+    
+    grid-template: 100px 100px /auto auto auto;
+    grid-row-gap: 10px;  Cria espacamento entre as colunas na horizontal
+    grid-column-gap: 10px; Cria espacamento entre as colunas na vertical
+    }
+    
+    .r1{
+        background-color: red;          
+        
+    }
+    
+    .r2{
+        background-color: blue;           
+        
+    }
+    
+    .r3{
+        background-color: green;        
+    
+    }
+    
+    .rect{
+        width: 100px;
+        height: 100px;
+    }   */
+
+
+
+
+/*FLEXBOX
+
+.container{                             ELEMENTO PAI
+    display: flex;
+    flex-direction: row-reverse;
+
+    background-color: gray;
+    height: 400px;
+    color: white;
+}
+
+.r1{
+    background-color: red;           ELEMENTO FILHO - 1
+    
+}
+
+.r2{
+    background-color: blue;            ELEMENTO FILHO - 2
+    
+}
+
+.r3{
+    background-color: green;        ELEMENTO FILHO - 3
+
+}
+
+.rect{
+    width: 100px;
+    height: 100px;
+}
+
+*/
+
+
+
+
+
+/* PSEUDO CLASSES
+input:focus{ O texto fica em vermelho na hora da digitação
+    color: red;
+}   
+
+li:first-child{ Coloca cor Azul no primeiro item da lista
+    color: blue;
+}
+
+li:nth-child(2){ Coloca cor Amarelo no segundo item da lista
+    color: goldenrod;
+}
+
+li:last-child{ Coloca cor Vermelha no ultimo item da lista
+    color: red;
+}
+*/
+
+
+
+
+
+
+/* SELETORES
+
+p, header, h2{
+    background-color: red;
+}   
+*/
+
+
+
+
+
+
+/*
+
+p::first-letter{
+        color: red;
+        }
+        
+        
+p::first-line{
+            color: red;
+            }    
+
+*/            
